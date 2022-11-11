@@ -20,5 +20,7 @@ Automatic:
 
 ## Deploy
 
+@include(Build)
+
 @run(rsync -avz . dh:~/brettterpstra.info/)
 
