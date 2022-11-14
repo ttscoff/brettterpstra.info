@@ -30,15 +30,28 @@ I am currently working as a Principal Software Developer for Oracle on the Devel
 
 ### Experience
 
-Knitcraft/St. Croix
-: _Art Director/Web Developer &bull; July 2001 -- December 2005_
+Oracle
+: _Principal Technical Writer &bull; May 2021 -- January 2022_  
+  _Principal Software Developer &bull; January 2022 -- Present_
 
-: Handled international e-commerce and web branding, and created all artwork for the national chain of boutique shops.
+: I started at Oracle as a technical writer. My work creating a GitHub->OCM (Oracle Content Management) pipeline using [Jekyll](https://jekyllrb.com/) as a conduit earned me a promotion to Principal Software Developer. The pipeline allows Oracle writers to compose in Markdown and use GitHub Pull Requests for the editing process, leveraging code comments, suggested edits, and providing an audit trail. I serve as the primary editor for my team and am always the last approval in the process (though I've built it such that another writer can step in if I'm unavailable). Once a PR process is complete, the Jekyll site is published, and the OCM automation (which runs as a Jekyll plugin) pushes new and updated content to the CMS.
 
-Circle Six Design
-: _Owner &bull; January 2006 -- February 2009_
+: I manage the [Oracle DevRel GitHub](https://github.com/oracle-devrel) organization for the company, responsible for creation and maintenance of over 100 repositories, including their automation pipelines. I've developed tools for repo generation from templates, and for batch updating files and Actions across any/all repos using the GitHub API.
 
-: Web design/development, print design, audio/video production, and client management.
+: In my role as Principal Technical Writer, I managed projects and goals for my team, and took on the role of editor and facilitator for the work of my co-workers, though not officially in a management role. Under my leadership with a team of three, we published over 100 pieces of technical content that were surfaced as part of developer.oracle.com and blogs.oracle.com in the course of one year.
+
+Independent
+: _January 2014 -- May 2021_
+
+: For seven years I developed several commercial Mac applications, including [Marked 2](https://marked2app.com) and the upcoming [nvUltra](https://nvultra.com), and maintained multiple web properties. I contracted for web development, productivity consultation, and --- in addition to blogging and creating documentation for my own projects --- contributed to several online publications including [MacStories](https://www.macstories.net/) and [Lifehacker](https://lifehacker.com/) (and previously [Macworld](https://www.macworld.com) and TUAW), as well as continuing my own blog at [brettterpstra.com](https://brettterpstra.com).
+
+Aol Tech
+: _Contract developer &bull; July 2009 -- March 2011_. 
+  _Senior Front End Developer &bull; March 2011 -- January 2014_
+
+: I worked remotely on the front end of Aol Tech web properties as the lead developer for Engadget, TUAW, Joystiq and Massively. I handled the implementation of all JavaScript, HTML and CSS technologies on these blogs, and built new functionality for the core Blogsmith platform through PHP extensions. I managed a team of four people to bring major projects like the relaunch of Engadget to fruition.
+: I worked closely with designers and had an active role in the development of several high-traffic properties.
+: This is where I developed my skills as a remote employee. I learned to manage time, work and meet across time zones, and provide accountability without being in an office setting. I implemented the use of Asana to track projects and progress for my team, as well as the use of Basecamp for communication.
 
 Agilebits
 : _Chief Media Producer &bull; October 2010 -- February 2011_
@@ -50,26 +63,16 @@ The Unofficial Apple Weblog
 
 : While blogging at TUAW, I developed the Blogsmith Blogging Bundle for TextMate. The CMS hacks that I pulled off while at TUAW led to my employment as a developer for Aol Tech.
 
-Aol Tech
-: _Contract developer &bull; July 2009 -- March 2011_. 
-  _Senior Front End Developer &bull; March 2011 -- January 2014_
+Circle Six Design
+: _Owner &bull; January 2006 -- February 2009_
 
-: I worked remotely on the front end of Aol Tech web properties as the lead developer for Engadget, TUAW, Joystiq and Massively. I handled the implementation of all JavaScript, HTML and CSS technologies on these blogs, and built new functionality for the core Blogsmith platform through PHP extensions. 
-: I worked closely with designers and had an active role in the development of several high-traffic properties.
+: Web design/development, print design, audio/video production, and client management.
 
-Independent
-: _January 2014 -- May 2021_
+Knitcraft/St. Croix
+: _Art Director/Web Developer &bull; July 2001 -- December 2005_
 
-: For seven years I developed several commercial Mac applications, including [Marked 2](https://marked2app.com) and the upcoming [nvUltra](https://nvultra.com), and maintained multiple web properties. I contracted for web development, productivity consultation, and --- in addition to blogging and creating documentation for my own projects --- contributed to several online publications including [MacStories](https://www.macstories.net/) and [Lifehacker](https://lifehacker.com/) (and previously [Macworld](https://www.macworld.com) and TUAW), as well as continuing my own blog at [brettterpstra.com](https://brettterpstra.com).
+: Handled international e-commerce and web branding, and created all artwork for the national chain of boutique shops.
 
-Oracle
-: _Principal Technical Writer &bull; May 2021 -- January 2022_  
-  _Principal Software Developer &bull; January 2022 -- Present_
-
-: I started at Oracle as a technical writer. My work creating a GitHub->OCM (Oracle Content Management) pipeline using [Jekyll](https://jekyllrb.com/) as a conduit earned me promotion to Principal Software Developer. In addition to automation/process development, I continue to be the primary editor for all technical content published by the team.
-
-: I manage the [Oracle DevRel GitHub](https://github.com/oracle-devrel) organization for the company, responsible for creation and maintenance of over 100 repositories, including their automation pipelines. I've developed tools for repo generation from templates, and for batch updating files and Actions across any/all repos using the GitHub API.
-    
 Other
 : As a member of the Mac "power user" community, I've spoken at [ALTConf](http://altconf.com/), [Macworld](https://www.macworld.com/article/224350/remembering-macworld-expo.html), and [Macstock](https://macstockconferenceandexpo.com/), organized meet-ups at [WWDC](https://developer.apple.com/wwdc/), and have published two titles on iBooks.
 
@@ -89,33 +92,43 @@ Minneapolis College of Art And Design, Minneapolis, MN
 ### Skills
 
 Summary
-: - HTML, CSS, and responsive web design
+: 
+
+- HTML, CSS, and responsive web design
 - JavaScript, React, jQuery with some experience with other frameworks (Angular, Vue)
 - PHP, Ruby, and Python scripting
 - Mac and Unix platforms and command line proficiency
 - Objective-C, Swift, and Mac development
 - Excellent prose and technical writing skills
-- Git/GitHub proficiency
 - Expert on Markdown
+- Leadership/team management
+- Git/GitHub proficiency
 
 Programming
-: I have a core set of languages I consider myself proficient in (Ruby, Objective-C, Swift), and myriad languages I'm comfortable working in and always learning more about. I'm able to pick up a new language quickly as the need arises.
+: I have a core set of languages in which I consider myself proficient (Ruby, Objective-C, Swift), and myriad languages I'm comfortable working in and always learning more about. I'm capable of picking up new languages quickly as needs arise.
 
-Language
-: I have strong English language skills, spoken and written, bridging both grammar and style. My writing is both technical and approachable in nature, and I've been credited by many new programmers with having provided them an accessible entry point to a concept. I internalize any style guide I'm presented with and can easily write for the target publication.
+Writing
+: I have strong English language skills, spoken and written, bridging both grammar and style. My writing is both technical and approachable in nature, and I've been credited by many new programmers with having provided them an accessible entry point to a concept. I internalize any style guide I'm given and can easily write for the target publication.
 
-Git/GitHub
-: I use Git for version control on all of my projects, and GitHub hosting for [all of my open source work](https://github.com/ttscoff) (and some private repositories). I'm well-versed in command line Git, apps like Tower and GitKraken, and have experience using GitHub Pull Requests, Issues, and Discussions. I also have experience developing GitHub Actions as pipeline for CI/CD and automation.
+Markdown
+: I'm extremely proficient in Markdown. I can tell you every difference between MultiMarkdown, Discount, Maruku, Kramdown, PHP Markdown Extra, GitHub Flavored Markdown, and any other flavor of Markdown. I know how to write Markdown that will translate across platforms and processors, and how to leverage the specific strengths of any Markdown processor.
 
 Leadership
 : I work well with others, and naturally take a leadership role. In times when that leadership role has led to a management position, I've done an excellent job of hearing the needs of my reports, guiding them in their projects, and acting as a conduit between upper management and my team to accomplish large goals on time. I have experience with Agile workflows.
 
-: I communicate well, whether in email, 1-on-1, or in meeting settings. I accept criticism, understand goals, and convey my feelings and opinions easily.
+: I communicate well, whether in email, one-on-one, or in meeting settings. I accept criticism, understand goals, and convey my feelings and opinions easily.
 
-: I will say what's on my mind, but I am careful not to hurt others, and am very aware of differing needs within a team. I have often been told after meetings "thank you for saying that, I didn't have the nerve." I wear this as a badge of honor.
+: I will say what's on my mind, but am careful not to hurt others, and am very aware of differing needs within a team. I have often been told after meetings, "Thank you for saying that, I didn't have the nerve." I wear this as a badge of honor.
 
-Markdown
-: I'm extremely proficient in Markdown. I can tell you every difference between MultiMarkdown, Discount, Maruku, Kramdown, PHP Markdown Extra, GitHub Flavored Markdown, and any other flavor of Markdown. I know how to write Markdown that will translate across platforms and processors, and how to leverage the specific strengths of any Markdown processor.
+: Over the years I've developed help documents for projects like Marked 2 ([documentation](https://marked2app.com/help/)), Bunch ([documentation](https://bunchapp.co/docs/)), and all of my [various projects](https://brettterpstra.com/projects/), ranging from detailed README files to full websites. I've also developed documentation for other applications, including [Fantastical by Flexibits](https://flexibits.com/fantastical/help).
+
+: I've contributed to several major publications, including [O'Reilly's Mac Hacks](https://www.oreilly.com/library/view/mac-hacks/9781449343453/), and co-authored the interactive books [60 Mac Tips Volumes 1 and 2](http://60tips.com/) for Apple's iBookstore and Vimeo release.
+
+: I blog regularly and have developed an audience (~20k/week) with whom I enjoy interacting. I've also published work on The Unofficial Apple Weblog, Macworld (print and web), MacStories, and LifeHacker, as well as contributed to the upcoming Terminus project for Warp.
+
+Git/GitHub
+: I use Git for version control on all of my projects, and GitHub hosting for [all of my open source work](https://github.com/ttscoff) (and some private repositories). I'm well-versed in command line Git, apps like Tower and GitKraken, and have experience using GitHub Pull Requests, Issues, and Discussions. I also have experience developing GitHub Actions as pipelines for CI/CD and automation.
+
 
 </section>
 
@@ -123,17 +136,12 @@ Markdown
 
 ### Activities
 
-Writing
-: I've contributed to several major publications, including [O'Reilly's Mac Hacks](https://www.oreilly.com/library/view/mac-hacks/9781449343453/), and co-authored the interactive books [60 Mac Tips Volumes 1 and 2](http://60tips.com/) for Apple's iBookstore and Vimeo release.
-
-: I blog regularly and have developed an audience (~20k/week) with whom I enjoy interacting. Many of my late-night hacks and projects are documented at [BrettTerpstra.com](https://brettterpstra.com/). I've also published work on The Unofficial Apple Weblog, Macworld (print and web), MacStories, and LifeHacker, as well as contributed to the upcoming Terminus project for Warp.
-
 Coding
 : I develop the Mac application [Marked](https://marked2app.com), a tool for authors and bloggers with Markdown preview and text analysis features. 
 : I created and maintain [Bunch](https://bunchapp.co), an automation tool for Mac, the [documentation of which](https://bunchapp.co/docs) I am particularly proud. 
 : I authored the [nvALT](https://brettterpstra.com/projects/nvalt/) fork of Notational Velocity and am currently working on its successor, [nvUltra](https://nvultra.com/). 
 : I spend my free time coding automation and productivity [apps and scripts](https://brettterpstra.com/projects). I have myriad open source tools I've authored and supported, including [Doing](https://github.com/ttscoff/doing) (command line project/time tracking), [mdless](https://github.com/ttscoff/mdless) (a command line Markdown pager), the [MarkdownEditing](https://github.com/ttscoff/MarkdownEditing) package for Sublime Text, and [NA](https://github.com/ttscoff/na_gem) (command line interaction with TaskPaper files). 
-: In the process of documenting my projects, I've built helpful tools like [NiftyMenu](https://studio.youtube.com/video/vR-LioIh6EQ/edit) and a Keyboard Maestro macro for [cross-linking Markdown documents](https://brettterpstra.com/2021/09/01/keyboard-maestro-markdown-linking/).
+: In the process of documenting my projects, I've built helpful tools like [NiftyMenu](https://www.youtube.com/watch?v=mMRke8K6VOU) and a Keyboard Maestro macro for [cross-linking Markdown documents](https://brettterpstra.com/2021/09/01/keyboard-maestro-markdown-linking/).
 : I love problem solving, and find complex regular expressions a relaxing endeavor.
 
 Music
