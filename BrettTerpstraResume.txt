@@ -7,18 +7,22 @@ css: Resume.css
 
 <aside id="contact">
 
-Minnesota, USA. 
+![][headshot]
+
+Minnesota, USA.<br>
 <me@brettterpstra.com>
 
 </aside>
 
 </header>
 
+[headshot]: headshot.avif class="headshot" width=100px height=100px
+
 <section id="profile">
 
 ### Profile
 
-I'm a writer, podcaster, and software developer with over 25 years of experience in writing, documenting, and marketing software. I've worked in HTML/CSS, JavaScript, C/C++, Ruby, Objective-C, Swift, Python, and more. I have extensive experience writing documentation using Markdown with Git version management and publishing pipelines.
+I'm a writer, podcaster, and software developer with over 25 years of experience in writing, documenting, and marketing software. I've worked in HTML/CSS, JavaScript (vanilla, jQuery, Angular, React, Vue), C/C++, Ruby, Objective-C, Swift, Python, and more. I have extensive experience writing documentation using Markdown with Git version management and publishing pipelines.
 
 I graduated from the Minneapolis College of Art and Design in 2000, with a BA in Interactive Multimedia (Web Design). After working as Art Director and webmaster for a fashion company and subsequently founding my own advertising firm, I went full-time into web development. I began working for Aol Tech (Engadget, TUAW, Joystiq, Massively) in 2011 and rose to Senior Front-End developer and tech lead for the content division. I left that position after five years to be an independent software developer for seven years before taking on a Developer Relations role at Oracle in 2021.
 
@@ -31,14 +35,16 @@ I am currently working as a Principal Software Developer for Oracle on the Devel
 ### Experience
 
 Oracle
-: _Principal Technical Writer &bull; May 2021 -- January 2022_  
-  _Principal Software Developer &bull; January 2022 -- Present_
+: _Principal Technical Writer &bull; May 2021 -- January 2022_<br>
+_Principal Software Developer &bull; January 2022 -- Present_
 
-: I started at Oracle as a technical writer. My work creating a GitHub->OCM (Oracle Content Management) pipeline using [Jekyll](https://jekyllrb.com/) as a conduit earned me a promotion to Principal Software Developer. The pipeline allows Oracle writers to compose in Markdown and use GitHub Pull Requests for the editing process, leveraging code comments, suggested edits, and providing an audit trail. I serve as the primary editor for my team and am always the last approval in the process (though I've built it such that another writer can step in if I'm unavailable). Once a PR process is complete, the Jekyll site is published, and the OCM automation (which runs as a Jekyll plugin) pushes new and updated content to the CMS.
+: I started at Oracle as a technical writer. My work creating a GitHub->OCM (Oracle Content Management) pipeline using [Jekyll](https://jekyllrb.com/) as a conduit earned me a promotion to Principal Software Developer. The pipeline allows Oracle writers to compose in Markdown and use GitHub Pull Requests for the editing process, leveraging code comments, suggested edits, and providing an audit trail. I serve as the primary editor for my team and am always the last approval in the process (though I've built it such that another writer can easily step in if I'm unavailable). Once a PR process is complete, the Jekyll site is published, and the OCM automation (which runs as a Jekyll plugin) pushes new and updated content to the CMS.
 
-: I manage the [Oracle DevRel GitHub](https://github.com/oracle-devrel) organization for the company, responsible for creation and maintenance of over 100 repositories, including their automation pipelines. I've developed tools for repo generation from templates, and for batch updating files and Actions across any/all repos using the GitHub API.
+: I manage the [Oracle DevRel GitHub](https://github.com/oracle-devrel) organization for the company, responsible for creation and maintenance of over 200 repositories, including their automation pipelines. I've developed tools for repo generation from templates, and for batch updating files and Actions across any/all repos using the GitHub API.
 
 : In my role as Principal Technical Writer, I managed projects and goals for my team, and took on the role of editor and facilitator for the work of my co-workers, though not officially in a management role. Under my leadership with a team of three, we published over 100 pieces of technical content that were surfaced as part of developer.oracle.com and blogs.oracle.com in the course of one year.
+
+: In the last year I've been responsible for creating screencasts and demo videos for the AI Hub at Oracle. I do screencasts, video editing, animations, and voiceovers, all geared toward piquing developer interest in Oracle's AI offerings.
 
 Independent
 : _January 2014 -- May 2021_
@@ -46,7 +52,7 @@ Independent
 : For seven years I developed several commercial Mac applications, including [Marked 2](https://marked2app.com) and the upcoming [nvUltra](https://nvultra.com), and maintained multiple web properties. I contracted for web development, productivity consultation, and --- in addition to blogging and creating documentation for my own projects --- contributed to several online publications including [MacStories](https://www.macstories.net/) and [Lifehacker](https://lifehacker.com/) (and previously [Macworld](https://www.macworld.com) and TUAW), as well as continuing my own blog at [brettterpstra.com](https://brettterpstra.com).
 
 Aol Tech
-: _Contract developer &bull; July 2009 -- March 2011_. 
+: _Contract developer &bull; July 2009 -- March 2011_.<br>
   _Senior Front End Developer &bull; March 2011 -- January 2014_
 
 : I worked remotely on the front end of Aol Tech web properties as the lead developer for Engadget, TUAW, Joystiq and Massively. I handled the implementation of all JavaScript, HTML and CSS technologies on these blogs, and built new functionality for the core Blogsmith platform through PHP extensions. I managed a team of four people to bring major projects like the relaunch of Engadget to fruition.
@@ -92,7 +98,7 @@ Minneapolis College of Art And Design, Minneapolis, MN
 ### Skills
 
 Summary
-: 
+:
 
 - HTML, CSS, and responsive web design
 - JavaScript, React, jQuery with some experience with other frameworks (Angular, Vue)
@@ -124,7 +130,7 @@ Leadership
 
 : I've contributed to several major publications, including [O'Reilly's Mac Hacks](https://www.oreilly.com/library/view/mac-hacks/9781449343453/), and co-authored the interactive books [60 Mac Tips Volumes 1 and 2](http://60tips.com/) for Apple's iBookstore and Vimeo release.
 
-: I blog regularly and have developed an audience (~20k/week) with whom I enjoy interacting. I've also published work on The Unofficial Apple Weblog, Macworld (print and web), MacStories, and LifeHacker, as well as contributed to the upcoming Terminus project for Warp.
+: I blog regularly and have developed an audience (30k+/week) with whom I enjoy interacting. I've also published work on The Unofficial Apple Weblog, Macworld (print and web), MacStories, and LifeHacker, as well as contributed to the upcoming Terminus project for Warp.
 
 Git/GitHub
 : I use Git for version control on all of my projects, and GitHub hosting for [all of my open source work](https://github.com/ttscoff) (and some private repositories). I'm well-versed in command line Git, apps like Tower and GitKraken, and have experience using GitHub Pull Requests, Issues, and Discussions. I also have experience developing GitHub Actions as pipelines for CI/CD and automation.
@@ -137,10 +143,10 @@ Git/GitHub
 ### Activities
 
 Coding
-: I develop the Mac application [Marked](https://marked2app.com), a tool for authors and bloggers with Markdown preview and text analysis features. 
-: I created and maintain [Bunch](https://bunchapp.co), an automation tool for Mac, the [documentation of which](https://bunchapp.co/docs) I am particularly proud. 
-: I authored the [nvALT](https://brettterpstra.com/projects/nvalt/) fork of Notational Velocity and am currently working on its successor, [nvUltra](https://nvultra.com/). 
-: I spend my free time coding automation and productivity [apps and scripts](https://brettterpstra.com/projects). I have myriad open source tools I've authored and supported, including [Doing](https://github.com/ttscoff/doing) (command line project/time tracking), [mdless](https://github.com/ttscoff/mdless) (a command line Markdown pager), the [MarkdownEditing](https://github.com/ttscoff/MarkdownEditing) package for Sublime Text, and [NA](https://github.com/ttscoff/na_gem) (command line interaction with TaskPaper files). 
+: I develop the Mac application [Marked](https://marked2app.com), a tool for authors and bloggers with Markdown preview and text analysis features.
+: I created and maintain [Bunch](https://bunchapp.co), an automation tool for Mac, the [documentation of which](https://bunchapp.co/docs) I am particularly proud.
+: I authored the [nvALT](https://brettterpstra.com/projects/nvalt/) fork of Notational Velocity and am currently working on its successor, [nvUltra](https://nvultra.com/).
+: I spend my free time coding automation and productivity [apps and scripts](https://brettterpstra.com/projects). I have myriad open source tools I've authored and supported, including [Doing](https://github.com/ttscoff/doing) (command line project/time tracking), [mdless](https://github.com/ttscoff/mdless) (a command line Markdown pager), the [MarkdownEditing](https://github.com/ttscoff/MarkdownEditing) package for Sublime Text, and [NA](https://github.com/ttscoff/na_gem) (command line interaction with TaskPaper files).
 : In the process of documenting my projects, I've built helpful tools like [NiftyMenu](https://www.youtube.com/watch?v=mMRke8K6VOU) and a Keyboard Maestro macro for [cross-linking Markdown documents](https://brettterpstra.com/2021/09/01/keyboard-maestro-markdown-linking/).
 : I love problem solving, and find complex regular expressions a relaxing endeavor.
 
@@ -161,9 +167,10 @@ Professional and personal references are available and will be furnished upon re
 
 ### Elsewhere
 
-| ---:    | :---                |
-| **GitHub**  | [github.com/ttscoff](https://github.com/ttscoff)  |
-| **Twitter** | [twitter.com/ttscoff](https://twitter.com/ttscoff) |
-| **Blog**    | [brettterpstra.com](https://brettterpstra.com)   |
+| ---:         | :---                                                   |
+| **GitHub**   | [github.com/ttscoff](https://github.com/ttscoff)       |
+| **Mastodon** | [hachyderm.io/ttscoff](https://hachyderm.io/@ttscoff/) |
+| **Blog**     | [brettterpstra.com](https://brettterpstra.com)         |
+| **Contact**  | [brettterpstra.com/contact](https://brettterpstra.com/contact/) |
 
 </section>

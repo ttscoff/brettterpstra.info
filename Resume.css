@@ -16,13 +16,15 @@ html {
 }
 
 body {
-  margin: 0;
+  width: 1024px;
+  margin: 0 auto;
+  max-width: 100vw;
 }
 
 #wrapper {
   margin-left: 0;
-  max-width:  1200px;
-  hyphens:  auto;
+  max-width: 1200px;
+  hyphens: auto;
   -webkit-hyphens: auto;
   overflow-wrap: break-word;
 }
@@ -32,28 +34,42 @@ header {
 }
 
 #contact {
-  float:  right;
-  margin-top: 9em;
+  float: right;
+  margin: 1em 1em 0 0;
   text-align: right;
 }
 
 section {
   position: relative;
-  border-left:  solid 1px #ccc;
-  padding-left:  .5em;
+  border-left: solid 1px #ccc;
+  padding-left: 0.5em;
   padding-bottom: 0;
-  clear:  both;
-  width:  70vw;
+  clear: both;
+  width: 70vw;
   float: left;
   margin: 1em 0 1em 8em;
   max-width: 800px;
 }
 
-article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
   display: block;
 }
 
-audio, canvas, progress, video {
+audio,
+canvas,
+progress,
+video {
   display: inline-block;
 }
 
@@ -66,7 +82,8 @@ progress {
   vertical-align: baseline;
 }
 
-[hidden], template {
+[hidden],
+template {
   display: none;
 }
 
@@ -75,7 +92,8 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
-a:active, a:hover {
+a:active,
+a:hover {
   outline-width: 0;
 }
 
@@ -85,7 +103,8 @@ abbr[title] {
   text-decoration: underline dotted;
 }
 
-b, strong {
+b,
+strong {
   font-weight: inherit;
   font-weight: bolder;
 }
@@ -93,7 +112,6 @@ b, strong {
 dfn {
   font-style: italic;
 }
-
 
 mark {
   background-color: #ff0;
@@ -104,7 +122,8 @@ small {
   font-size: 80%;
 }
 
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -127,13 +146,17 @@ svg:not(:root) {
   overflow: hidden;
 }
 
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
 
 figure {
-  margin: 1em 40px;
+  /* margin: 1em 40px; */
+  display: none;
 }
 
 hr {
@@ -142,7 +165,11 @@ hr {
   overflow: visible;
 }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   font: inherit;
   margin: 0;
 }
@@ -151,24 +178,35 @@ optgroup {
   font-weight: 700;
 }
 
-button, input {
+button,
+input {
   overflow: visible;
 }
 
-button, select {
+button,
+select {
   text-transform: none;
 }
 
-[type=reset], [type=submit], button, html [type=button] {
+[type="reset"],
+[type="submit"],
+button,
+html [type="button"] {
   -webkit-appearance: button;
 }
 
-[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
-[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring,
+button:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -191,21 +229,24 @@ textarea {
   overflow: auto;
 }
 
-[type=checkbox], [type=radio] {
+[type="checkbox"],
+[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-[type=search] {
+[type="search"] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
-[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -220,7 +261,7 @@ textarea {
 }
 
 html {
-  font: 125%/1.45 'Quattrocento Sans', sans-serif;
+  font: 125%/1.45 "Quattrocento Sans", sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -239,7 +280,7 @@ html {
 
 body {
   color: rgba(0, 0, 0, 0.8);
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
   font-weight: 400;
   word-wrap: break-word;
   font-kerning: normal;
@@ -271,15 +312,15 @@ h1 {
   padding-top: 0;
   margin-bottom: 3rem;
   color: rgba(0, 0, 0, 0.9);
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 6rem;
-  line-height: .8;
+  line-height: 0.8;
   display: block;
-  margin-left:  0;
+  margin-left: 0;
   width: 25rem;
-  float:  left;
+  float: left;
   color: #a7036d;
 }
 
@@ -293,7 +334,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: rgba(0, 0, 0, 0.9);
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 1.51572rem;
@@ -301,20 +342,20 @@ h2 {
 }
 
 h3 {
-  position:  absolute;
+  position: absolute;
   left: -300px;
   top: 0;
-  width:  280px;
+  width: 280px;
   text-align: right;
   margin-right: 0;
-  margin-top: 0!important;
+  margin-top: 0 !important;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: rgba(0, 0, 0, 0.9);
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 1em;
@@ -333,7 +374,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: rgba(0, 0, 0, 0.9);
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -350,7 +391,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: rgba(0, 0, 0, 0.9);
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 0.87055rem;
@@ -367,7 +408,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: rgba(0, 0, 0, 0.9);
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 0.81225rem;
@@ -404,7 +445,7 @@ li {
 }
 
 li::before {
-  content: '';
+  content: "";
   display: block;
   width: 5px;
   height: 5px;
@@ -412,7 +453,7 @@ li::before {
   background: #ccc;
   position: absolute;
   left: -0.8em;
-  top: .54em;
+  top: 0.54em;
 }
 
 ol {
@@ -439,7 +480,8 @@ dl {
   margin-bottom: 0;
 }
 
-p:last-of-type, dd:last-of-type {
+p:last-of-type,
+dd:last-of-type {
   margin-bottom: 0;
 }
 
@@ -677,7 +719,8 @@ thead {
   text-align: left;
 }
 
-td, th {
+td,
+th {
   text-align: left;
   border-bottom: 1px transparent rgba(0, 0, 0, 0.12);
   font-feature-settings: "tnum";
@@ -690,20 +733,28 @@ td, th {
   padding-bottom: calc(0.725rem - 1px);
 }
 
-th:first-child, td:first-child {
+th:first-child,
+td:first-child {
   padding-left: 0;
 }
 
-th:last-child, td:last-child {
+th:last-child,
+td:last-child {
   padding-right: 0;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   text-shadow: none;
   background-image: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 2.175rem;
   margin-bottom: 0.725rem;
 }
@@ -820,14 +871,17 @@ hr {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-sup, sub, a.footnote {
+sup,
+sub,
+a.footnote {
   font-size: 1.4ex;
   height: 0;
   line-height: 1;
   position: relative;
 }
 
-sup, a.footnote {
+sup,
+a.footnote {
   vertical-align: super;
 }
 
@@ -840,12 +894,13 @@ a.footnote {
   font-size: 0.75rem;
 }
 
-::selection, ::-moz-selection {
+::selection,
+::-moz-selection {
   background-color: #fbfb48;
 }
 
 @media print {
-/*  * {
+  /*  * {
     background: transparent !important;
     color: #000 !important;
     text-shadow: none !important;
@@ -949,4 +1004,54 @@ a.footnote {
 .inverted pre {
   border-radius: 8px;
   padding: 4px;
+}
+
+.inverted a {
+  color: #e47191;
+}
+
+#headshot {
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+@media only screen and (max-width: 720px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 0.8;
+    width: 100%;
+    float: none;
+    margin-bottom: 1rem;
+  }
+
+  section {
+    padding-right: 1em;
+  }
+
+  #contact {
+    float: none;
+    text-align: left;
+    padding: 1em;
+  }
+
+  figure {
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    padding: 0 0.2em;
+  }
+
+  #headshot {
+    margin: 0;
+  }
+
+  /* Inline #3 | https://brettterpstra.info/ */
+
+  #headshot {
+    float: none;
+  }
 }

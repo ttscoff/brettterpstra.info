@@ -1,0 +1,33 @@
+style: Resume
+css: Resume.css
+
+<header>
+
+# Brett Terpstra
+
+<aside id="contact">
+
+22305 E Burns Valley Rd<br>
+Winona, MN  55987<br>
+me@brettterpstra.com
+
+
+</aside>
+
+</header>
+
+<section>
+
+My name is Brett Terpstra, and I'm applying for the job of Staff Technical Writer. I believe I'm an excellent candidate as I've been writing developer documentation for over 20 years, working with Git/GitHub for 10 years, and have experience at two major corporations (Aol and Oracle) as a team leader, as well as working in my own small business as an independent developer (who writes all his own documentation).
+
+I've been using Jekyll for 10 years, developing blogs, websites, and documentation based on Markdown, as well as developing plugins. I have dozens of personal projects, all carefully documented, and I have 4 years of experience at Oracle working as a technical writer on the developer relations team, writing original content and documenting Oracle Cloud Infrastructure developments.
+
+I have excellent writing skills, am highly proficient in Markdown, and have extensive experience working with Git and GitHub. I have natural leadership capabilities, work well with both reports and upper management, and have seen multiple high-pressure projects through to completion, including taking a key role in the relaunch of Engadget.com (as senior front end developer) and a supporting role in the launch of the new developer.oracle.com.
+
+I have developed dozens of automations and processes for technical documentation, ranging from personal projects (I've published multiple applications, commercial and open source) to the entire publishing pipeline for the DevRel team of Oracle.
+
+I've been in charge of hiring for Aol when looking for new front-end engineers, and screened/interviewed applicants for technical writing positions at Oracle, where I was responsible for making the final hiring decisions. I've built teams that work well together and accomplish great goals.
+
+I have outstanding communication skills, both written and in-person, and am known for having a sense of humor while still able to focus on achieving goals. I'm adept at handling and providing feedback, both critical and adulatory.
+
+</section>
